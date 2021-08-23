@@ -17,7 +17,7 @@ header {
        }
        .name_details {
           margin-left: 40px;
-       }
+       } 
        .name_header {
           margin-top: 10px;
           font-size: 45px;
@@ -136,7 +136,7 @@ header {
      border: none;
      background-color: gray;
      color: white;
-     width: 78%;
+     width: 85%;
      height: 35px;
      padding-left: 18px;
      padding-top: 14px;
@@ -197,17 +197,19 @@ header {
     font-size: 18px;
     border-radius: 5px;
     border: 3px gray solid;
-    width: 60%;
+    width: 65%;
     height: 25px;
     padding-left: 22px;
     padding-top: 10px;
 }
-footer {
+/* footer {
      clear: both;
      margin-top: 20px;
      padding-top: 30px;
-}
+     
+} */
 .footer {
+     width: 100%;
      margin-top: 20px;
      font-size: 25px;
      text-align: center;
@@ -215,6 +217,8 @@ footer {
      background-color: gray;
      padding-top: 5px;
      padding-bottom: 5px;
+     position: absolute;
+     bottom: 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -425,10 +429,10 @@ header {
       padding-left: 22px;
       padding-top: 10px;
   }
-  footer {
+  /* footer {
        clear: both;
        padding-top: 40px;
-  }
+  } */
   
   .footer {
        margin-top: 20px;
@@ -438,6 +442,8 @@ header {
        background-color: gray;
        padding-top: 5px;
        padding-bottom: 5px;
+       position: absolute;
+       bottom: -440px;
   }
 
 }
